@@ -15,6 +15,7 @@
     "#validations/*": "./src/validations/*"
   },
   "scripts": {
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node --watch src/index.js",
     "lint": "eslint .",
@@ -23,7 +24,11 @@
     "format:check": "prettier --check .",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
-    "db:studio": "drizzle-kit studio"
+    "db:studio": "drizzle-kit studio",
+    "dev:docker" : " sh scripts/dev.sh",
+    "prod:docker" : " sh scripts/prod.sh",
+    "dev-w:docker" : "cd scripts && dev.bat",
+    "prod-w:docker" : "cd scripts && prod.bat"
   },
   "repository": {
     "type": "git",
