@@ -1,7 +1,7 @@
 {
   "name": "acquisitions",
   "version": "1.0.0",
-  "description": "",
+  "description": "Secure REST API with JWT authentication, role-based rate limiting, and Neon serverless PostgreSQL",
   "type": "module",
   "main": "index.js",
   "imports": {
